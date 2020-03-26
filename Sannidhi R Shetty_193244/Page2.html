@@ -1,0 +1,335 @@
+ <!DOCTYPE html> 
+<html> 
+ <head>
+  <title> 
+      Quiz
+  </title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.pagination a {
+  color: black;
+  float: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head> 
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+  $("#button").click(function(){
+  if($(this).val() =="Show Discription") {
+ 
+  $("#d1").show();
+  $(this).val("Close Discription");
+  }
+  else {
+  $("#d1").hide();
+  $(this).val("Show Discription");
+  }
+  });
+  });
+  $(function(){
+  $("#button1").click(function(){
+  if($(this).val() =="Show Answer") {
+ 
+  $("#d2").show();
+  $(this).val("Close Answer");
+  }
+  else {
+  $("#d2").hide();
+  $(this).val("Show Answer");
+  }
+  });
+  });
+  $(function(){
+  $("#button2").click(function(){
+  if($(this).val() =="Show Discription") {
+ 
+  $("#d3").show();
+  $(this).val("Close Discription");
+  }
+  else {
+  $("#d3").hide();
+  $(this).val("Show Discription");
+  }
+  });
+  });
+  $(function(){
+  $("#button3").click(function(){
+  if($(this).val() =="Show Answer") {
+ 
+  $("#d4").show();
+  $(this).val("Close Answer");
+  }
+  else {
+  $("#d4").hide();
+  $(this).val("Show Answer");
+  }
+  });
+  });
+   $(function(){
+  $("#button4").click(function(){
+  if($(this).val() =="Show Discription") {
+ 
+  $("#d5").show();
+  $(this).val("Close Discription");
+  }
+  else {
+  $("#d5").hide();
+  $(this).val("Show Discription");
+  }
+  });
+  });
+  $(function(){
+  $("#button5").click(function(){
+  if($(this).val() =="Show Answer") {
+ 
+  $("#d6").show();
+  $(this).val("Close Answer");
+  }
+  else {
+  $("#d6").hide();
+  $(this).val("Show Answer");
+  }
+  });
+  });
+   $(function(){
+  $("#button6").click(function(){
+  if($(this).val() =="Show Discription") {
+ 
+  $("#d7").show();
+  $(this).val("Close Discription");
+  }
+  else {
+  $("#d7").hide();
+  $(this).val("Show Discription");
+  }
+  });
+  });
+  $(function(){
+  $("#button7").click(function(){
+  if($(this).val() =="Show Answer") {
+ 
+  $("#d8").show();
+  $(this).val("Close Answer");
+  }
+  else {
+  $("#d8").hide();
+  $(this).val("Show Answer");
+  }
+  });
+  });
+   $(function(){
+  $("#button8").click(function(){
+  if($(this).val() =="Show Discription") {
+ 
+  $("#d9").show();
+  $(this).val("Close Discription");
+  }
+  else {
+  $("#d9").hide();
+  $(this).val("Show Discription");
+  }
+  });
+  });
+  $(function(){
+  $("#button9").click(function(){
+  if($(this).val() =="Show Answer") {
+ 
+  $("#d10").show();
+  $(this).val("Close Answer");
+  }
+  else {
+  $("#d10").hide();
+  $(this).val("Show Answer");
+  }
+  });
+  });
+  </script>
+  
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+</head> 
+<body>
+ <nav class="navbar navbar-dark bg-primary"> 
+        <a class="navbar-brand" href="#"> 
+         <p> Welcome To Quiz Page 2</p>
+		   <p> All The best </p>
+      </a> 
+    </nav>
+<div>	
+	<div>
+	<div >
+	<p class = "questions"> Q1.Who invented Compact Disc?</p>
+  <input type = "radio" id="James" name="answer" value="James">
+  <label for="James">A) James T Russel</label><br>
+  <input type="radio" id="male" name="answer" value="Bred">
+  <label for="Bred">B) John Bred</label><br>
+  <input type="radio" id="male" name="answer" value="Micheal">
+  <label for="Micheal">C) John Micheal</label><br>
+  <input type="radio" id="male" name="answer" value="other">
+  <label for="other">D) Other</label><br>
+  </div>
+ 
+  <div>
+	<input id="button" type="button" value = "Show Discription" name ="button" style = "background-color: gray;" />
+	
+	<div id ="d1" style= " display: none; border:1px solid black; padding:1px; width: 500px"  > 
+	<p> A small plastic disc on which music or other digital information is stored in the form 
+	of a pattern of metal-coated pits from which it can be read using 
+	laser light reflected off the disc.</p></div>
+	</div>
+	<div>
+		<input id="button1" type="button" value = "Show Answer" name ="button1" style = "background-color: gray;"/>
+
+	
+	<div id ="d2" style= " display: none; border:1px solid black; padding:1px; width: 500px" > 
+	<p style >A) James T Russel</p>
+	</div>
+	</div>
+	</div>
+		<div>
+	<div >
+	<p class = "questions"> Q2. Which one is the first search engine in the Internet?</p>
+  <input type = "radio" id="James" name="answer" value="James">
+  <label for="James">A) Google</label><br>
+  <input type="radio" id="male" name="answer" value="Bred">
+  <label for="Bred">B) Archie</label><br>
+  <input type="radio" id="male" name="answer" value="Micheal">
+  <label for="Micheal">C) Altavista</label><br>
+  <input type="radio" id="male" name="answer" value="other">
+  <label for="other">D) Other</label><br>
+  </div>
+ 
+  <div>
+	<input id="button2" type="button" value = "Show Discription" name ="button2" style = "background-color: gray;" />
+	
+	<div id ="d3" style= " display: none; border:1px solid black; padding:1px; width: 500px"  > 
+	<p> Archie is a tool for indexing FTP archives, allowing people to find specific files. It is considered to be the first Internet search engine.</p></div>
+	</div>
+	<div>
+		<input id="button3" type="button" value = "Show Answer" name ="button3" style = "background-color: gray;"/>
+
+	
+	<div id ="d4" style= " display: none; border:1px solid black; padding:1px; width: 500px" > 
+	<p style >B) Archie</p>
+	</div>
+	</div>
+	</div>
+		<div>
+	<div >
+	<p class = "questions"> Q3.Number of bit used by the Ipv address?</p>
+  <input type = "radio" id="James" name="answer" value="James">
+  <label for="James">A) 32 bit</label><br>
+  <input type="radio" id="male" name="answer" value="Bred">
+  <label for="Bred">B) 64 bit</label><br>
+  <input type="radio" id="male" name="answer" value="Micheal">
+  <label for="Micheal">C) 128 bit</label><br>
+  <input type="radio" id="male" name="answer" value="other">
+  <label for="other">D) Other</label><br>
+  </div>
+ 
+  <div>
+	<input id="button4" type="button" value = "Show Discription" name ="button4" style = "background-color: gray;" />
+	
+	<div id ="d5" style= " display: none; border:1px solid black; padding:1px; width: 500px"  > 
+	<p> an IPv6 address is 128 bits long and is arranged in eight groups, each of which is 16 bits.</p></div>
+	</div>
+	<div>
+		<input id="button5" type="button" value = "Show Answer" name ="button5" style = "background-color: gray;"/>
+
+	
+	<div id ="d6" style= " display: none; border:1px solid black; padding:1px; width: 500px" > 
+	<p style >C) 128 bit</p>
+	</div>
+	</div>
+	</div>
+		<div>
+	<div >
+	<p class = "questions"> Q4.Which is the first web browser invented in 1990?</p>
+  <input type = "radio" id="James" name="answer" value="James">
+  <label for="James">A) Nexus</label><br>
+  <input type="radio" id="male" name="answer" value="Bred">
+  <label for="Bred">B) Internet Explorer</label><br>
+  <input type="radio" id="male" name="answer" value="Micheal">
+  <label for="Micheal">C) Chrome</label><br>
+  <input type="radio" id="male" name="answer" value="other">
+  <label for="other">D) Other</label><br>
+  </div>
+ 
+  <div>
+	<input id="button6" type="button" value = "Show Discription" name ="button6" style = "background-color: gray;" />
+	
+	<div id ="d7" style= " display: none; border:1px solid black; padding:1px; width: 500px"  > 
+	<p>The first web browser, called WorldWideWeb and later renamed Nexus, was a browser-editor. It could be used to create pages as well as browse them. </p></div>
+	</div>
+	<div>
+		<input id="button7" type="button" value = "Show Answer" name ="button7" style = "background-color: gray;"/>
+
+	
+	<div id ="d8" style= " display: none; border:1px solid black; padding:1px; width: 500px" > 
+	<p style >A) Nexus</p>
+	</div>
+	</div>
+	</div>
+		<div>
+	<div >
+	<p class = "questions"> Q5.First Computer virus is known as?</p>
+  <input type = "radio" id="James" name="answer" value="James">
+  <label for="James">A) Rabbit</label><br>
+  <input type="radio" id="male" name="answer" value="Bred">
+  <label for="Bred">B) Creeper Virus</label><br>
+  <input type="radio" id="male" name="answer" value="Micheal">
+  <label for="Micheal">C) SCA virus</label><br>
+  <input type="radio" id="male" name="answer" value="other">
+  <label for="other">D) Other</label><br>
+  </div>
+ 
+  <div>
+	<input id="button8" type="button" value = "Show Discription" name ="button8" style = "background-color: gray;" />
+	
+	<div id ="d9" style= " display: none; border:1px solid black; padding:1px; width: 500px"  > 
+	<p> Bob Thomas at BBN created Creeper as an experimental self-duplicating program that was intended not to inflict damage on, but to illustrate a mobile application.</p></div>
+	</div>
+	<div>
+		<input id="button9" type="button" value = "Show Answer" name ="button9" style = "background-color: gray;"/>
+
+	
+	<div id ="d10" style= " display: none; border:1px solid black; padding:1px; width: 500px" > 
+	<p style >B) Creeper Virus</p>
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="pagination ">
+  <a href="Index.html">&laquo; Previous</a>
+  <a href="Index.html">1</a>
+  <a class ="active"  href="Page2.html">2</a>
+  <a href="Page3.html">3</a>
+ 
+  <a href="Page3.html">Next &raquo;</a>
+</div>
+<footer>
+<nav class="navbar navbar-dark bg-primary"> 
+        <a class="navbar-brand" href="#"> 
+        
+		 <p> Created by,
+		 Sannidhi R Shetty </p>
+      </a> 
+    </nav> 
+</footer>
+	</body>
