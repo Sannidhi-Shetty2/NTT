@@ -1,0 +1,6 @@
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\bin\Debug\Test.exe.config
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\bin\Debug\Test.exe
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\bin\Debug\Test.pdb
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\obj\Debug\Test.exe
+C:\Users\SAMPATH SHETTY\OneDrive\Desktop\Sannidhi Training Assesment NTT\Test\Test\obj\Debug\Test.pdb
